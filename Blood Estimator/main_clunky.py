@@ -56,37 +56,38 @@ y_train = np.array(training_set[['Made Donation in March 2007']])
 X_train = np.array(training_set.drop(['Made Donation in March 2007'], axis=1))
 X_test = testing_set
 
-# Fits the classifier to the training data and returns the classifier
-def FitClassifier(classifier, X_train, y_train):
-    return classifier.fit(X_train, y_train)
-
-# Predicts the probability of the result given the test data and 
-# returns the numpy array of it with the second column dropped
-def ScoreClassifiers(classifier, X_test):
-    scores  = np.array(classifier.predict_proba(X_test))
-    np.delete(scores, 1, 1)
-    return scores.flatten()
-
-# Creates a pandas dataframe to export the data as a CSV file
-def CreateCSV(data, filename):
-    results = pd.DataFrame()
-    results[''] = testing_set["ID"]
-    results["Made Donation in March 2007"] = data
-
-    # Export to CSV
-    results.to_csv(filename, index=False)
-
-# Runs all of the above functions for an easy process of testing ML algorithms
-def testClassifier(classifier, filename):
-    classifierFit = FitClassifier(classifier, X_train, y_train)
-    classifierScores = ScoreClassifiers(classifierFit, X_test)
-    CreateCSV(classifierScores, filename)
-
 
 # Initialize the classifiers
-testClassifier(LogisticRegression(), 'LogisticRegressionResults.csv')
+LRClassifier = LogisticRegression()
 StochasticGDClassifier = SGDClassifier(loss="log")
 KNNClassifier = KNeighborsClassifier()
 GPClassifier = GaussianProcessClassifier()
 GNBClassifier = GaussianNB()
 DTClassifier = DecisionTreeClassifier()
+
+# Fit the classifiers
+LRClassifier.fit(X_train, y_train)
+StochasticGDClassifier.fit(X_train, y_train)
+KNNClassifier.fit(X_train, y_train)
+GPClassifier.fit(X_train, y_train)
+GNBClassifier.fit(X_train, y_train)
+DTClassifier.fit(X_train, y_train)
+
+# See the initial score of the classifiers with no hyperparameters tuned
+lrData = np.array(LRClassifier.predict_proba(X_test))
+sgdcData = StochasticGDClassifier.predict_proba(X_test)
+knnData = KNNClassifier.predict_proba(X_test)
+gpData = GPClassifier.predict_proba(X_test)
+gnbData = GNBClassifier.predict_proba(X_test)
+dtData = DTClassifier.predict_proba(X_test)
+lrData = np.delete(lrData, 1, 1) # THANK YOU @ https://stackoverflow.com/questions/1642730/how-to-delete-columns-in-numpy-array
+
+# Set up the data results in pandas dataframe
+lrResults = pd.DataFrame()
+
+# set the first row to the ideas used in testing
+lrResults[''] = testing_set["ID"]
+# Set the predictions using the functions from before
+lrResults["Made Donation in March 2007"] = lrData.flatten()
+# Export file to a CSV
+lrResults.to_csv('LogisticRegressionResults.csv', index=False)
