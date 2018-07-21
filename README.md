@@ -19,3 +19,9 @@ of this process, but doing it myself and looking up the documentation will help 
 predictingh the labels based off of that input.
 
 **Link to work:** [Here is the file I created](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main.py)
+
+# Day 2: July 20, 2018
+
+**Today's Progress**: Continuing with the blood prediction project from yesterday, I made a file that reads in the data to a Logistic Regreession algorithm and it outputs the probabilities to a CSV file. I submitted the file and scored #1430 out of #4650. Not bad for such a basic algorithm!
+
+**Thoughts:** I feel really confident with my skills after placing that high. I looked up all of the documentation and it gave me the feeling of control and understanding of what I was doing. Obviously this project was super simple, but I now know with certainty that I have the basics down. It really is easy to get a ML algorithm up and going. I want to extend this program to use deep learning techniques and get more practice with that, because I feel much less comfortable with DL libraries, functions, and architectures.
