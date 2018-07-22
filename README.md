@@ -27,3 +27,11 @@ predictingh the labels based off of that input.
 **Thoughts:** I feel really confident with my skills after placing that high. I looked up all of the documentation and it gave me the feeling of control and understanding of what I was doing. Obviously this project was super simple, but I now know with certainty that I have the basics down. It really is easy to get a ML algorithm up and going. I want to extend this program to use deep learning techniques and get more practice with that, because I feel much less comfortable with DL libraries, functions, and architectures.
 
 **Link to work:** [Here's the current working file](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main_clunky.py)
+
+# Day 3: July 21, 2018
+
+**Today's Progress**: I narrowed down the program to use only one algorithm - logistic regression. I then implemented GridSearchCV to select the best parameters for the job.
+
+**Thoughts:** I enjoyed refining my solution and using GridSearchCV. I'm going to now move onto using deep learning and switch to a new project.
+
+**Link to work:** [Here's the current working file](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main_clunky.py)
