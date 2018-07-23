@@ -1,6 +1,6 @@
 # 100 Days Of ML/DL Code
 
-### Day 0: July 18, 2018
+### Day 1: July 18, 2018
 
 **Today's Progress**: Watched [Siraj Raval's music generation video](https://www.youtube.com/watch?v=4DMm5Lhey1U&t=307s), learning how to create music using deep learning. I learned more about LSTM's, but couldn't get the code running on my end.
 
@@ -8,7 +8,7 @@
 
 **Link to work:** No work produced today. I hope to get into creating a music generator.
 
-### Day 1: July 19, 2018
+### Day 2: July 19, 2018
 
 **Today's Progress**: Watched [Jordan Boyd-Graber's video on intro to ML](https://www.youtube.com/watch?v=7DjSOLW-ozc&list=PLegWUnz91WfsELyRcZ7d1GwAVifDaZmgo&index=1), learning about the basics of machine learning and the K-Nearest-Neighbors algorithm.
 I also created the beginnings of a program that uses ML algorithms to predict whether a person will donate blood again or not. I am completing [this challenge](https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/page/5/) for my first project.
@@ -20,7 +20,7 @@ predictingh the labels based off of that input.
 
 **Link to work:** [Here is the file I created](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main.py)
 
-# Day 2: July 20, 2018
+# Day 3: July 20, 2018
 
 **Today's Progress**: Continuing with the blood prediction project from yesterday, I made a file that reads in the data to a Logistic Regreession algorithm and it outputs the probabilities to a CSV file. I submitted the file and scored #1430 out of #4650. Not bad for such a basic algorithm!
 
@@ -28,10 +28,18 @@ predictingh the labels based off of that input.
 
 **Link to work:** [Here's the current working file](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main_clunky.py)
 
-# Day 3: July 21, 2018
+# Day 4: July 21, 2018
 
 **Today's Progress**: I narrowed down the program to use only one algorithm - logistic regression. I then implemented GridSearchCV to select the best parameters for the job.
 
 **Thoughts:** I enjoyed refining my solution and using GridSearchCV. I'm going to now move onto using deep learning and switch to a new project.
 
 **Link to work:** [Here's the current working file](https://github.com/MrJustPeachy/ML100/blob/master/Blood%20Estimator/main_clunky.py)
+
+# Day 5: July 22, 2018
+
+**Today's Progress**: I started on a [new kaggle project](https://www.kaggle.com/c/digit-recognizer), and am [following this tutorial that creates a deep neural net using keras](https://www.kaggle.com/poonaml/deep-neural-network-keras-way). I got about halfway through the tutorial today.
+
+**Thoughts:** I learned a lot through doing this kernel. It taught me a lot about keras and how to use it. I thought it was pretty easy to begin making a neural net (compared to tensorflow). Walking through the tutorial and trying to explain everything on the vlog forced me to think through everthing and taught me a lot. I feel much more confident in creating a neural net than I did before I started.
+
+**Link to work:** [Here's the current file](https://github.com/MrJustPeachy/ML100/blob/master/Digit%20Recognizer/Deep%20Learning%20with%20Keras.ipynb)
