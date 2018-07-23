@@ -1,5 +1,7 @@
 # 100 Days Of ML/DL Code
 
+## The vlog accompanying this challenge can be found [here](https://www.youtube.com/watch?v=C-XdamS0-zw&list=PLnXc6tX6p6dbBVtb-B_OgAodhQoBBOWrx&index=1).
+
 ### Day 1: July 18, 2018
 
 **Today's Progress**: Watched [Siraj Raval's music generation video](https://www.youtube.com/watch?v=4DMm5Lhey1U&t=307s), learning how to create music using deep learning. I learned more about LSTM's, but couldn't get the code running on my end.
