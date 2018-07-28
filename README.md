@@ -45,3 +45,28 @@ predictingh the labels based off of that input.
 **Thoughts:** I learned a lot through doing this kernel. It taught me a lot about keras and how to use it. I thought it was pretty easy to begin making a neural net (compared to tensorflow). Walking through the tutorial and trying to explain everything on the vlog forced me to think through everthing and taught me a lot. I feel much more confident in creating a neural net than I did before I started.
 
 **Link to work:** [Here's the current file](https://github.com/MrJustPeachy/ML100/blob/master/Digit%20Recognizer/Deep%20Learning%20with%20Keras.ipynb)
+
+# Day 6: July 23, 2018
+
+**Today's Progress**: I started making a jupyter notebook with tensorflow. I wasn't able to finish it, but I got pretty far. I looked up all the documentation to understand what I needed.
+
+**Thoughts:** I felt like it was easy to learn how to use tensorflow since it used Keras to create the neural net.
+
+**Link to work:** [Here's the current file](https://github.com/MrJustPeachy/100-days-of-ML-DL-code/blob/master/Digit%20Recognizer/Deep%20Learning%20with%20Tensorflow.ipynb)
+
+# Day 7: July 24, 2018
+
+**Today's Progress**: I tried implementing the final part of a tensorflow solution, but got very lost in the settings related to training, evaluting, and deploying to a production environment. I decided to call it quits after trying to find a solution to get my tensorflow model up and running.
+
+**Thoughts:** I was surprised to find just how difficult it was to get a tensorflow model running. For the time being I don't want to mess with it, because it's outside of my scope. I'm going to stick with Keras. Overall, it was good learning experience and I have a greater appreciation for Keras now.
+
+**Link to work:** [Here's the current file](https://github.com/MrJustPeachy/100-days-of-ML-DL-code/blob/master/Digit%20Recognizer/Deep%20Learning%20with%20Tensorflow.ipynb)
+
+# Day 8: July 26, 2018
+
+**Today's Progress**: I started on the [humpback whale identitification challenge](https://www.kaggle.com/c/whale-categorization-playground). I quickly realized that I was way over my head and am starting to go through different kernels to learn and work on the challenge. 
+
+**Thoughts:** I quickly became confused and didn't have much of a clue as to what I was doing. I still kept on working through it and started by doing the things that I knew had to do (with regards to data/feature analysis. I'd like to do the problem myself by myself but I don't have those skills currently, so the kernel is needed. 
+
+**Link to work:** 
+
