@@ -70,3 +70,14 @@ predictingh the labels based off of that input.
 
 **Link to work:** 
 
+# Day 9: July 30, 2018
+
+**Today's Progress**: Started reading a couple different books. One is Deep Learning by Patterson and Gibson, and the other is Artificial Intelligence for dummies. I really like both for their own reasons.
+
+**Thoughts:** I enjoyed the dummies book discussion on where data comes from and how the AI winters happened. It dived into some of the history of AI that I hadn't learned about before. They also questioned whether hype was justified for deep learning, and I would say it is. The technology really can do a lot of things and even if computers stopped improving, there would be new deep learning techniques for specific types of applications. The deep learning book just reviewed linear algebra and started talking about how machine learning works. I feel like I know this stuff by heart, but I feel like more repetition can only help me improve.
+
+# Day 10: July 31, 2018
+
+**Today's Progress**: Continued reading the deep learning and AI for dummies book.
+
+**Thoughts:** The dummies book continued talking about data and where it comes from. It also discussed the theory of what to do when there is missing data - something which I haven't put a lot of thought into. The deep learning book went on with machine learning and I got a much needed refresher about cost functions because that is one of my weak points with ML.
