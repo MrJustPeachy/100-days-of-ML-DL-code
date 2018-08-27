@@ -81,3 +81,5 @@ predictingh the labels based off of that input.
 **Today's Progress**: Continued reading the deep learning and AI for dummies book.
 
 **Thoughts:** The dummies book continued talking about data and where it comes from. It also discussed the theory of what to do when there is missing data - something which I haven't put a lot of thought into. The deep learning book went on with machine learning and I got a much needed refresher about cost functions because that is one of my weak points with ML.
+
+### I took a break but will be returning to this journal soon enough - my current goal is going to be to [recreate this web app](https://github.com/reiinakano/fast-style-transfer-deeplearnjs) using Node.JS and tensorflow.JS. This repo used deeplearn.js which is now deprecated, so I'm going to be changing it to work with tensorflow.JS!
