@@ -83,3 +83,9 @@ predictingh the labels based off of that input.
 **Thoughts:** The dummies book continued talking about data and where it comes from. It also discussed the theory of what to do when there is missing data - something which I haven't put a lot of thought into. The deep learning book went on with machine learning and I got a much needed refresher about cost functions because that is one of my weak points with ML.
 
 ### I took a break but will be returning to this journal soon enough - my current goal is going to be to [recreate this web app](https://github.com/reiinakano/fast-style-transfer-deeplearnjs) using Node.JS and tensorflow.JS. This repo used deeplearn.js which is now deprecated, so I'm going to be changing it to work with tensorflow.JS!
+
+# Day 11: August 26 - September 1
+**Today's Progress**: It took me a ridiculously long time to get a node server setup with my linux machine, but it's now up. I can now put my files in and serve them up. I don't have a permanent link to it yet, but I'll include in a future progress report. Tomorrow I'll upload my entire node app to a new repo and link it back to this post!
+
+**Thoughts:** Node is so hard to work with sometimes. I honestly got stuck just figuring out how to get a node app to serve up my HTML, CSS, and JS files, but I have it up now. I can finally get back to the purpose of this journey - learning more about AI. Although now I have a good understanding of how Node works too :). Sorry for the break - I had some other things I was figuring out.
+
