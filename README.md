@@ -89,3 +89,7 @@ predictingh the labels based off of that input.
 
 **Thoughts:** Node is so hard to work with sometimes. I honestly got stuck just figuring out how to get a node app to serve up my HTML, CSS, and JS files, but I have it up now. I can finally get back to the purpose of this journey - learning more about AI. Although now I have a good understanding of how Node works too :). Sorry for the break - I had some other things I was figuring out.
 
+# Day 12: September 2 - 4
+**Today's Progress**: I was able to run the [tensorflow examples](https://github.com/tensorflow/tfjs-examples) using Parcel (they don't mention that you need this to run the program in their documentation). 
+
+**Thoughts:** Getting these started was important because it will allow me to understand how these projects are structured and implement style transfer in the browser!
